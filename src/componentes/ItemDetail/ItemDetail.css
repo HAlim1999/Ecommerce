@@ -1,0 +1,94 @@
+.container2{
+    background-color: white;
+    margin: auto;
+    margin-top: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.imgLateral{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    margin: auto;
+    margin-right: 5rem;
+    margin-top: 5px;
+}
+.imgLateral img{
+    width: 50px;
+    margin: 25px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+.imgLateral img:hover{
+    border: 2px solid blue;
+}
+
+.imgPrincipal{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.imgPrincipal img{
+    width:25rem;
+    margin: 1rem;
+}
+
+.detalle{
+    height: 75vh;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-right: 15px;
+    border: 2px solid #EDEDED;
+    border-radius: 5px;
+}
+.detalle h1,p,button{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    width: 20rem;
+    margin: 10px;
+    
+}
+.detalle h1{
+    font-size: 1.2rem
+    
+}
+.precio{
+    font-size: 2rem;
+
+}
+.datos{
+    font-size: .9rem;
+}
+
+.cantidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cantidad div{
+    width: 3rem;
+    padding: .4em;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center
+}
+.endBuy{
+    width: 15rem;
+    padding: 1rem;
+    color: #1670f6;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #D9E7FA;
+}

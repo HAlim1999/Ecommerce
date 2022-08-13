@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.home_row{
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.promo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 95%;
+    font-size: 10px;
+    color: black;
+    background-color: white; 
+}
+
+.card{
+    padding: 1rem;
+    margin: 5px;
+    border: 1px solid #2968C8;
+    border-radius: 5px;
+}
+.home_image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: 80px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0))}
