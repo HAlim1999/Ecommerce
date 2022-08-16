@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import {getFirestore, collection, getDocs, query, where} from 'firebase/firestore';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import HandshakeIcon from '@mui/icons-material/Handshake';
-import fondo from '/home/ivan/Desktop/React youT/ecommerce/src/componentes/imgIcon/fondo.webp'
+import fondo from '../imgIcon/fondo.webp'
 
 export const ItemListContainer = () =>{
 
