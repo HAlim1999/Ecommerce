@@ -8,11 +8,6 @@ import './Item.css';
 
 const Item = ({info}) =>{
 
-    // <div className="film">
-    //     <img src={info.imagen} />
-    //     <h1>{info.producto}</h1>
-    // </div>
-
 
     return(
         <Link to={`/detalle/${info.id}`}>

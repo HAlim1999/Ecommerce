@@ -17,7 +17,6 @@ const CartProvider =({children})=>{
             setCart([...Cart, {...item, quantity}])
         }
     }
-    console.log(Cart);
     const ClearCart = () => setCart([]);
 
     const isInCart = (id) => Cart.find(producto => producto.id === id) ? true : false;
